@@ -1,0 +1,92 @@
+#body
+{
+    width: 1024px;
+    margin: auto;
+    
+}
+#prestige
+{
+    width: 1024px;
+    height: 40px;
+    background-image: url(../images/4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#pristigeright
+{
+    float: right;
+    margin-top: 2px;
+    margin: auto;
+}
+#paraphrase
+{
+width: 1024px;
+margin: auto;
+}
+
+#presitigeleft
+{
+    font-size: 20px;
+    color: red;
+    width: 600px;
+    height: 40px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 3px;
+}
+#language_change select
+{
+    margin-right: 10px;
+    height: 24px;
+}
+#headright
+{
+    width: 600px;
+    height: 300px;
+    float: right;
+    position: relative;
+    float: left;
+}
+#sum
+{
+    width: 600px;
+    height: 300px;
+}
+#ul li
+{
+    padding: 0px 3px;
+    cursor: pointer;
+    color: red;
+    background-color: rgb(0, 140, 255);
+    display: inline;
+    border: 1px solid rgb(19, 235, 30);
+    border-radius: 30px;
+     float: left;
+}
+#ul
+{
+    display: inline;
+    position: absolute;
+    bottom: -10px;
+    right: 10px;
+   
+}
+#ul li:hover
+{
+    background-color: violet;
+    color: tomato;
+}
+#extend
+{
+    display: none;
+
+}
+.button
+{
+    width: 350px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    background-image: url(../imgs/9.jpg);
+}
+

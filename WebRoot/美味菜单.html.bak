@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <script type="text/javascript" src="../jave/东北美食.js"></script>
+    <title>美味菜单</title>
+</head>
+
+<body>
+
+    <div class="box1">
+        <div id="hd-home"></div>
+        <img id="hdImg" src="../images/hand_11.jpg" alt="" />
+        <input type="button" id="hand_11" class="mybutton" value="1" onmouseover="change_img(id)"
+            style="margin-left: -142px;" />&nbsp;
+        <input type="button" id="hand_12" class="mybutton" value="2" onmouseover="change_img(id)" />&nbsp;
+        <input type="button" id="hand_13" class="mybutton" value="3" onmouseover="change_img(id)" />&nbsp;
+        <input type="button" id="hand_14" class="mybutton" value="4" onmouseover="change_img(id)" />&nbsp;
+        <div class="lqr">菜单</div>
+        <div class="box1-1">
+
+            <li><img src="../images/拔丝地瓜.jpg">
+                <p>拔丝地瓜</p>
+                <span>24元</span>
+                <div tital="东北菜，也叫鲁菜，是以地瓜、白糖、油等食材制成的一道色香味俱全的传统名菜。">东北菜，也叫鲁菜，是以地瓜、白糖、油等食材制成的一道色香味俱全的传统名菜。</div>
+            </li>
+            <li><img src="../images/木樨肉.jpg">
+                <p>木须肉</p>
+                <span>28元 </span>
+                <div
+                    title="木须肉原名木樨肉，是一道常见的特色传统 名菜 ，属 八大菜系 之一的 鲁菜 -孔府菜，俗语常读作为木须肉、 苜蓿肉 等。 其菜以猪肉片与 鸡蛋 、木耳等混炒而成，因炒鸡蛋色黄而碎，类似 木樨 而得名。">
+                    木须肉原名木樨肉，是一道常见的特色传统 名菜 ，属 八大菜系。...</div>
+            </li>
+            <li><img src="../images/清炸里脊.jpg">
+                <p>清炸里脊</p>
+                <span>36元 </span>
+                <div
+                    title="清炸里脊是东北地区传统的特色名菜，属于东北菜。饮酒佳菜，越嚼越香。把里脊切成滚刀块，用酱油、绍酒、味精卤一下。勺内放入油，烧至九成热时把里脊块放入炸一下捞出，待油温升高时再放入油内，炸熟呈火红色捞出装盘即成。">
+                    清炸里脊是东北地区传统属于东北菜。饮酒佳菜，越嚼越香。...</div>
+            </li>
+            <li><img src="../images/炒雪冬.jpg">
+                <p>炒雪冬</p>
+                <div title="制作方法是将雪里蕻梗切成末，用水洗两次。冬笋去净笋衣和笋根，切成较厚的片，用水洗一下。葱切葱花。姜切成末。勺内放猪油50克，放入葱、姜炸锅，加冬笋炒一下，再放雪里蕻煸炒，">
+                    制作方法是将雪里蕻梗切成末，用水洗两次。冬笋去净笋衣和笋根...</div>
+                <span>26元 </span>
+            </li>
+            <li><img src="../images/熘肥肠png.png">
+                <p>溜肥肠</p>
+                <span>25元</span>
+                <div title="溜肥肠就是中华美食之一相信很多人都有吃过。肥肠 是很多人都喜欢的美食，肥肠口感软糯，味道鲜美，营养丰富，含有充足的蛋白质，脂肪，氨基酸，维生素以及多种矿物质">
+                    溜肥肠就是中华美食之一相信很多人都有吃过。肥肠 是很多人都喜欢的美食...</div>
+            </li>
+            <li><img src="../images/甩袖汤.jpg">
+                <p>甩袖汤</p>
+                <span>12元 </span>
+                <div title="甩袖汤是东北地区传统的汉族名菜，属于东北菜。是一道经济实惠的家常汤菜。它色鲜艳，味鲜美，菜样多。">
+                    甩袖汤是东北地区传统的汉族名菜，属于东北菜。是一道经济实惠的家常汤菜。它色鲜艳，味鲜美，菜样多。...</div>
+            </li>
+            <li><img src="../images/白肉血肠.jpg">
+                <p>白肉血肠</p>
+                <span> 48元</span>
+                <div title=" 血肠氽白肉传说白肉血肠最早是满族人祭祖还愿时, 献于诸神的。现已成为满族人雅俗共赏的特殊风味名菜。">血肠氽白肉传说白肉血肠最早是满族人祭祖还愿时,
+                    献于诸神的。现已成为满族人雅俗共赏的特殊风味名菜。...</div>
+            </li>
+            <li><img src="../images/红扒熊掌.jpg">
+                <p>红扒熊掌</p>
+                <span>58元 </span>
+                <div title="“红扒熊掌”仍是举世闻名的中国佳肴，以肉质肥美、营养丰富出名。">“红扒熊掌”仍是举世闻名的中国佳肴，以肉质肥美、营养丰富出名。</div>
+            </li>
+            <!-- <li><img src="images/红烧肘子.jpg"></li>
+            <li><img src="images/酸菜排骨jpg.jpg"></li>
+            <li><img src="images/锅包肉.jpg"></li>
+            <li><img src="images/东北乱炖jpg.jpg"></li>
+            <li><img src="images/小鸡炖蘑菇1.jpg"></li>
+            <li><img src="images/地三鲜.jpg"></li>
+            <li><img src="images/大棒骨.jpg"></li>
+            <li><img src="images/大鹅炖土豆.jpg"></li> -->
+        </div>
+    </div>
+</body>
+
+</html>

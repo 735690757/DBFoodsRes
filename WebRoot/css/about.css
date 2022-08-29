@@ -1,0 +1,118 @@
+
+.header{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(51, 51, 51);
+    color: #424242;
+    font-size: 12px;
+}
+
+.wrap{
+    width: 1226px;
+    margin: 0 auto;
+
+}
+.header-left{
+    float: left;
+    margin: 0 auto;
+}
+.mida{
+    float:right;
+    max-width: fit-content;
+}
+.header-mid{
+    float: left;
+    margin: 0 auto;
+    margin-left: 80px;
+}
+.qw{
+    border: 3px solid rgb(119, 110, 255);
+    border-radius: 11em;
+    height: auto;
+    width: 1500px;
+    float: left;
+}
+.header-right{
+    float: right;
+    margin: 0 auto;
+}
+.header li{
+    float: left;
+}
+.header a{
+    color: #b0b0b0;
+}
+.header a hover{
+    color: #fff;
+}
+.header span{
+    color: #424242;
+    margin: 0 3.6px;
+
+}
+.cart{
+    margin-left: 25px;
+    width: 120px;
+    height: 50px;
+    background-color: #424242;
+}
+.cart:hover{
+    background-color: #fff;
+}
+.nav{
+    width: 100%;
+    height: 75px;
+    background-image: url(../images/R-C.jpg);
+}
+.banner{
+    width: 100%;
+    height: 460px;
+}
+.banner-box{
+    width: 1226px;
+    height: 400px;
+    background-image: url(../images/522.jpg);
+    background-size: 100%;
+    animation: banner 10s linear infinite;
+}
+.banner-box:hover{
+    animation-play-state: paused;
+}
+@keyframes banner {
+    0%{
+        background-size: 100%;
+        background-image: url(../images/522.jpg);
+    }
+    25%{
+        background-size: 100%;
+        background-image: url(../images/head.jpg);
+    }
+    50%{
+        background-size: 100%;
+        background-image: url(../images/东北美食1.jpg);
+    }
+    75%{
+        background-image: url(../images/head.jpg);
+    }
+    100%{
+        background-image: url(../images/522.jpg);
+    }
+}
+.text{
+    width: 1226px;
+    height: 200px;
+    margin: 0 auto;
+}
+.ad{
+    width: 100%;
+    height: 170px;
+    margin: 14px 0 26px;
+}
+.adv-aside{
+    width: 234px;
+    height: 170px;
+    padding: 3px;
+    box-sizing: border-box;
+    background-color: #5f5750;
+}

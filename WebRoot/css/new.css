@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.daoo{
+    height: 60px;
+   	width: 1476px;
+    margin: auto;
+    top: 10px;
+    background-color: #5fb85f;
+    }
+.db{
+	font-size: 40px;
+	color: black;
+	margin-top: 10px;
+	margin-left: 87px;
+	vertical-align:auto;
+	}
+.ms{
+	font-size: 40px;
+	color: orange;
+	margin-top: 0px;
+	margin-left: 0px;
+	}
+.au{
+	font-size: 20px;
+    color: rgb(148, 113, 113);
+    flex-direction: column;
+    align-items: center;;
+    margin-left: 10px;
+   	float: right;
+   	margin-top: 7px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    border: #ba944d 3px solid;
+    border-radius: 24px;
+    line-height: 38px;
+    text-align: center;
+    display:flex;
+   	align-items:center;
+   	justify-content:center; 
+
+}
+.lint{
+	text-decoration: none;
+	color: white;
+	
+}
+.lin{
+   	text-decoration: none;
+    color: rgb(148, 113, 113);
+}
+
+.bboo{
+	width: 1230px;
+	height: 720px;
+	border-bottom: #5fb85f solid 1px;
+	margin:0px auto
+
+}
+.title{
+    height: 59px;
+    border-bottom:#5fb85f 1px solid ;
+}
+.title h3{
+    line-height: 59px;
+    width: auto;
+    color:#5fb85f;
+    font-size: 28px;
+}
+.title span{
+    color:#5fb85f;
+    font-size: 16px;
+}
+.left{
+    width: 462px;
+    height: 342px;
+    float: left;
+}
+.left ul{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.left ul li{
+line-height: 36px;
+color: #999;
+font-size: 20px;
+}
+.left ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #999;
+}
+.left ul li:hover{
+    color: red;
+    font-size: 24px;
+}
+.left ul li:hover a{
+    color: #000;
+    font-size: 24px;
+}
+.center{
+    width: 300px;
+    margin-left: 62px;
+    margin-right: 42px;
+    float: left;
+}
+.center h4{
+    font-size: 20px;
+    color: #5fb85f;
+    line-height: 60px;
+}
+.center img{
+    vertical-align: middle;
+}
+.center p{
+    text-align: center;
+    background: #f6f7f8;
+    line-height: 42px;
+    font-size: 16px;
+    color: #222;
+}
+.right{
+    width: 364px;
+    float: left;
+}
+.right h4{
+    font-size: 20px;
+    color:#5fb85f;
+    line-height: 60px;
+}
+.right ul li{
+    line-height: 36px;
+}
+.right ul li a{
+    color: #999;
+    font-size: 18px;
+    text-decoration: none;
+}
+.right ul li:hover a{
+    color: black;
+    font-size: 24px;
+}

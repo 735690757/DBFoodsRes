@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>login</title>
+        <link rel="stylesheet" type="text/css" href="css/pageChange.css">
+        <script src="js/pageChange.js"></script>
+    </head>
+    <body>
+        <div class="control">
+            <div class="item">
+                <div class="active">登录</div><div>注册</div>
+            </div>
+        <div class="content">
+            <div style="display: block;">
+            	<form name="f1" id="f1" action="login" method="get">
+                	<p>账号</p>
+                	<input type="text" placeholder="username" name="username" id="login"/>
+                	<p>密码</p>
+                	<input type="password" placeholder="password" name="password" id="password"/>
+                	<br/>
+                	<input type="submit" value="登录" />
+            	</form>
+            </div>
+            <div>
+            	<form name="f2" id="f2" action="reg" method="get">
+                	<p>用户名</p>
+                	<input type="text" placeholder="username" name="username"/>
+                	<p>密码</p>
+                	<input type="password" placeholder="password" name="password"/>
+                	<p>重复密码</p>
+                	<input type="password" placeholder="repeat password" name="password2"/>
+                	<p>邮箱</p>
+                	<input type="text" placeholder="useremail" name="useremail"/>
+                	<br/>
+                	<input type="submit" value="注册"  />
+                </form>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

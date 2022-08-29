@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box1{
+    width: 100%;
+}
+.lqr{ 
+    width:80%;
+    font-size: 50px;
+    color: black;
+    margin-top: 17px;
+    margin-left: 41px;
+    text-align: center;
+    font-family: YouYuan;
+    background-image: url(../images/R-C.jpg);
+    background-size: 100%;
+    margin: auto;
+    
+ }
+ #hd-home{
+    width: 1024px;
+    height: 0px;
+    border: 0px solid blue;
+     
+}
+#hdImg{
+	width:80%;
+	height:200px;	
+    margin-left: 170px;
+}
+.mybutton:hover{
+	color:white;
+	background-color:red;
+}
+#hd_hh{
+	color: #42aeae;
+	margin-left: -831px;
+}
+#hd_img{
+	width: 80px;
+	height: 80px;
+	border-radius: 57px;
+	margin-left: -48px;
+	margin-top: -1px;
+	float: left;
+}
+.box1-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 80%;
+    height: 1200px;
+    background-color: aqua;
+    background: url(../images/1.jpg);
+    background-size: 700px 1200px;
+}
+.box1-1 li{
+    position: relative;
+    width: 40%;
+    height: 200px;
+    list-style: none;
+    cursor: pointer;
+    border: 5px solid #d6b20f;
+    transition: all 0.3S;
+}
+
+.box1-1 li:hover{
+    transform: scale(1.1);
+}
+
+.box1-1 li:hover p{
+    color: red;
+}
+
+.box1-1 li img{
+    width: 70%;
+    height: 190px;
+}
+
+.box1-1 li p{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 400;
+    top: 10px;
+    right: 60px;
+    width: 40px;
+    height: 30px;
+}
+
+.box1-1 span{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    display: block;
+    width: 60px;
+    height: 30px;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.box1-1 div{
+    font-size: 14px;
+    font-weight: 100;
+}

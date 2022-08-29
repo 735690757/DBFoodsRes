@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link href="../css/caidan.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="../js/caidan.js"></script>
+ </head>
+ <body>
+  <div class="hd_body">
+     <div id="hd-home">
+           <img id="hdImg" src="../images/bj_0.JPG" alt=""/>
+           <input type="button"id="bj_0"class="mybutton"value="1"onmouseover="change_img(id)" style="margin-left: 1186px;margin-top: -50px;float: left;position: relative;"/>&nbsp;
+   		   <input type="button"id="bj_1"class="mybutton"value="2"onmouseover="change_img(id)" style="margin-left: 1212px;margin-top: -50px;float: left;position: relative;"/>&nbsp;
+   		   <input type="button"id="bj_2"class="mybutton"value="3"onmouseover="change_img(id)" style="margin-left: 1240px;margin-top: -50px;float: left;position: relative;"/>&nbsp;
+   		   <input type="button"id="bj_3"class="mybutton"value="4"onmouseover="change_img(id)"/ style="margin-left: 1268px;margin-top: -50px;float: left;position: relative;">&nbsp;</div>
+     <div class="hd_pp">菜单大全</div>
+	 <div class="hd_dd"></div>
+     <div class="hd_tip1">
+	   <a href="https://baike.baidu.com/item/%E7%BA%A2%E7%83%A7%E8%82%89/571767?fr=aladdin"><img class="picture1" src="../images/5 (2).jpg"></a>
+	   <p class="hd_ha">红烧肉</p>
+	   <u class="hd_hs"> 50 </u>
+	   <span class="hd">元</span><br>
+	   <span class="hd_tip11">红烧肉是热菜菜谱之一。红烧肉的烹饪技巧以砂锅为主，肥瘦相见，香甜松软，入口即化。红烧肉在我国各地流传甚广，是一道著名的大众菜肴。</span>
+	   <div class="hd_top1">了解更多</div>
+	 </div>
+	 <div class="hd_tip1 qq">
+	   <a href="https://baike.baidu.com/item/%E5%8F%AF%E4%B9%90%E9%B8%A1%E7%BF%85/525019?fr=aladdin"><img class="picture1" src="../images/9 (2).jpg"></a>
+	   <p class="hd_ha">可乐鸡翅</p>
+	   <u class="hd_hs"> 30 </u>
+	   <span class="hd">元</span><br>
+	   <span class="hd_tip11">可乐鸡翅，以鸡翅和可乐为主料制作而成。味道鲜美，色泽艳丽，鸡翅嫩滑，鲜甜适中，又保留了可乐的香气，深受大众喜欢。</span>
+	   <div class="hd_top1">了解更多</div>
+	 </div>
+	 <div class="hd_tip1 ww">
+	   <a href="https://baike.baidu.com/item/%E7%BA%A2%E7%83%A7%E6%8E%92%E9%AA%A8"><img class="picture1" src="../images/7 (2).jpg"></a>
+	   <p class="hd_ha">红烧排骨</p>
+	   <u class="hd_hs"> 45 </u>
+	   <span class="hd">元</span><br>
+	   <span class="hd_tip11">红烧排骨是一道经典的家常菜，味道香咸，排骨酥烂，色泽红亮，老少皆宜，无论是家常吃，还是招待来客，都是餐桌上不可或缺的美味佳肴。</span>
+	   <div class="hd_top1">了解更多</div>
+	 </div>
+	 <div class="hd_tip1 ee">
+	   <a href="https://baike.baidu.com/item/%E9%85%B8%E8%BE%A3%E5%9C%9F%E8%B1%86%E4%B8%9D"><img class="picture1" src="../images/11 (2).jpg"></a>
+	   <p class="hd_ha">酸辣土豆丝</p>
+	   <u class="hd_hs"> 20 </u>
+	   <span class="hd">元</span><br>
+	   <span class="hd_tip11">酸辣土豆丝，实惠、简单、美味、可口，是一道色香味俱全的家常菜。土豆丝熟而不软，脆而不生，味道丰厚不寡。</span>
+	   <div class="hd_top1">了解更多</div>
+	 </div>
+	 <div class="hd_tip1 rr">
+	   <a href="https://baike.baidu.com/item/%E7%B3%96%E9%86%8B%E9%B1%BC"><img class="picture1" src="../images/8 (3).jpg"></a>
+	   <p class="hd_ha">糖醋鱼</p>
+	   <u class="hd_hs"> 50 </u>
+	   <span class="hd">元</span><br>
+	   <span class="hd_tip11">糖醋的口味，一直深受大众的喜爱，做法简单、色泽红亮。而在烹饪手法上，采用淋汁的方法，更好的保持了鱼的香与酥。</span>
+	   <div class="hd_top1">了解更多</div>
+	 </div>
+	 <div class="hd_tip1 tt">
+	   <a href="https://baike.baidu.com/item/%E4%B8%9C%E5%9D%A1%E8%82%89"><img class="picture1" src="../images/10.jpg"></a>
+	   <p class="hd_ha">东坡肉</p>
+	   <u class="hd_hs"> 50 </u>
+	   <span class="hd">元</span><br>
+	   <span class="hd_tip11">软糯咸鲜、瘦而不柴、肥而不腻，东坡肉的诀窍就是"少着水，慢着火，火候足时它自美"———不炒糖色不过油，不加一滴水，文火慢炖，炖后再蒸。</span>
+	   <div class="hd_top1">了解更多</div>
+	 </div>
+	 <div class="hd_tip1 yy">
+	   <a href="https://baike.baidu.com/item/%E6%8B%94%E4%B8%9D%E5%9C%B0%E7%93%9C"><img class="picture1" src="../images/12 (2).jpg"></a>
+	   <p class="hd_ha">拔丝地瓜</p>
+	   <u class="hd_hs"> 25 </u>
+	   <span class="hd">元</span><br>
+	   <span class="hd_tip11">地瓜富含大量的糖、蛋白质、纤维素和矿物质，同时又含有大量的纤维素，既可以有效御寒，又不怕吃胖。可以当主食，也可以做菜。</span>
+	   <div class="hd_top1">了解更多</div>
+	 </div>
+	 <div class="hd_tip1 uu">
+	   <a href="https://baike.baidu.com/item/%E5%B0%96%E6%A4%92%E5%9C%9F%E8%B1%86%E7%89%87"><img class="picture1" src="../images/6 (2).jpg"></a>
+	   <p class="hd_ha">尖椒土豆片</p>
+	   <u class="hd_hs"> 20 </u>
+	   <span class="hd">元</span><br>
+	   <span class="hd_tip11">这是一道简单营养的家常菜，口感甜脆，味道清淡。土豆中含有丰富的B族维生素和优质纤维素，在人体延缓衰老的过程中有重要作用。</span>
+	   <div class="hd_top1">了解更多</div>
+	 </div>
+	 <div class="hd_tip1 ii">
+	   <a href="https://baike.baidu.com/item/%E4%B8%9C%E5%8C%97%E4%B9%B1%E7%82%96"><img class="picture1" src="../images/8 (2).jpg"></a>
+	   <p class="hd_ha">东北乱炖</p>
+	   <u class="hd_hs"> 60 </u>
+	   <span class="hd">元</span><br>
+	   <span class="hd_tip11">东北乱炖素有“大杂烩”之意，东北乱炖简单易煮，有荤有素，营养丰富，味道鲜美香喷喷，是一道常见的东北家常菜。</span>
+	   <div class="hd_top1">了解更多</div>
+	 </div>
+  </div>
+
+ </body>
+</html>

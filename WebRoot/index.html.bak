@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>东北美食网站</title>
+    <link rel="stylesheet" href="../css/ffl-.css">
+    <script src="../js/jquery-1.6.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/下拉列表.js"></script>
+</head>
+<body>
+
+    
+    <div id="body">
+        <div id="prestige">
+            <div id="prestigeleft">
+                <span class="woc">欢迎访问东北美食网站！</span>
+                    <form action="http://127.0.0.1" method="get" id="pristigeright">
+                    搜索:<input type="research" name="research" value="">
+                    </form>
+                  <div class="language_change">
+                    <select name="language" >
+                        <option value=""> 简体中文</option>
+                        <option value="">English</option>
+                    </select>
+
+                    <select name="currency" >
+                    <option value="">人民币</option>
+                    <option value="">Dollor</option>
+                    </select>
+                  </div>
+                   <div id="nav"> 
+                      
+                        <table width="100%" height="40px" align="center">
+                       <tr>
+                           <td id="line"><a href="">首页</a></td>
+                           <td id="line"><a href="">关于我们</a></td>
+                           <td id="line"><a href="">特色美食</a></td>
+                           <td id="line"><a href="">新闻资讯</a></td>
+                           <td id="line"><a href="">联系我们</a></td>
+                       </tr>
+                        </table>
+                       <img  src="../images/5.jpg" alt="" id="paraphrase">
+                    <div id="topic1">
+                        <h2>吉林市健康食品的供应商</h2>
+                        <p>我们要用健康味道，带您感受大自然的奇妙。吉林市绿色供应链，将理想的健康味道带到你的身边。为您寻找更多的有益<br>健康的原生食材，我们，只为你更健康。</p>
+                    </div>
+                
+                    <div id="foot-ffl">
+                        <p></p>
+                        <h2>每日推荐</h2>
+
+                        <input type="button" value="关于我们" onclick="extend()" id="button1" class="button">
+                <div id="extend">
+                    <input type="button" value="黄达（组长）" onclick="" id="button1" class="button"><br>
+                    <input type="button" value="韩东、冯筱晰" onclick="" id="button1" class="button"><br>
+                    <input type="button" value="李启瑞、范飞龙" onclick="" id="button1" class="button"><br>
+                </div>
+                        
+                        <div id="headright">
+                            
+                            <img src="../images/1.jpg" alt="轮换图片" id="sum">
+                            <ul id="ul">
+                                <li id="1" onmouseover="ponitchange(id)">1</li>
+                                <li id="2" onmouseover="pointchange(id)">2</li>
+                                <li id="3" onmouseover="pointchange(id)">3</li>
+                                <li id="4" onmouseover="pointchange(id)">4</li>
+                            </ul>
+                        </div>
+                        <div id="foot-gsq">
+            
+                            <div id="footright"><h2>我们的简介</h2><br>
+                                我们是一家以网站设计制作和广告设计制作的小组，我们组主营业务为网站设计、网站建设等
+                                我们自成立以来，一直专注与互联网品牌建设，我们注重客户提出的每一个要求，充分考虑每
+                                一个细节，积极地做好服务，努力开拓更好的视野。我们永远不会因为我们这曾经的成绩而满
+                                足。在所有新老客户面前，我们都乐意虚心、朴实的跟您接触，以便为您提供更优质的服务。
+
+                            </div>
+                        </div>
+                     </div>
+               </div>
+          <div>
+      </div>            
+ </div>
+
+
+    
+</body>
+</html>

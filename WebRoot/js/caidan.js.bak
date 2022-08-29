@@ -1,0 +1,5 @@
+function hd_home(para)
+       {
+       	document.getElementById("hdImg").src="../images/"+para+".JPG";
+       	
+       }

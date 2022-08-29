@@ -1,0 +1,150 @@
+.hd_body{
+	width:1476px;
+	height:1600px;
+	background-color:rgb(251,250,245);
+	}
+.hd_pp{
+	font-size: 31px;
+	color: orange;
+	margin-left: -26px;
+	font-size: 31px;
+    text-align: center;
+    }
+.hd_dd{
+    width: 150px;
+	height: 1px;
+	background-color: orange;
+	margin-left: 652px;
+	}
+.hd_tip1{
+    width: 340px;
+	height: 356px;
+	background-color:white;
+	margin-top: 63px;
+	margin-left: 167px;
+	border-radius: 15px;
+	}
+.picture1{
+	width:340px;
+	height:150px;
+	cursor:pointer;
+	border-radius: 15px;
+	}
+.picture1:hover{
+   box-shadow: rgb(221, 225, 228) 2px 2px 2px 2px;
+   transform:scale(1.1);}
+.hd_ha{
+	font-size:20px;
+	cursor:pointer;
+	}
+.hd_ha:hover{
+	color:red;
+	}
+.hd_hs{
+    font-size:20px;
+	color:red;
+	margin-left:0px;
+	margin-top:0px;
+	}
+.hd{
+	font-size:20px;
+	color:red;
+	margin-left:0px;
+	margin-top:0px;
+	}
+.hd_tip11{
+    font-size:15px;
+	color:black;
+	}
+.hd_top1{
+    width:120px;
+	height:30px;
+	background-color:rgb(175,144,87);
+	color:white;
+	margin-top:19px;
+	margin-left:0px;
+	text-align: center;
+    line-height: 28px;
+	cursor:pointer;
+	}
+.hd_top1:hover{
+	color:red;
+	background-color:orange;
+	}
+#hd-home{
+    width: 1024px;
+    height: 250px;
+    border: 0px solid blue;
+     
+}
+#hdImg{
+	width: 1140px;
+	height: 250px;
+	margin-left: 162px;	
+}
+.mybutton:hover{
+	color:white;
+	background-color:red;
+}
+#1(2).JPG{
+	margin-left: 1186px;
+	margin-top: -34px;
+	float: left;
+	z-index: 2;
+	position: relative;
+	cursor: pointer;
+}
+#2(2).JPG{
+	margin-left: 1240px;
+	margin-top: -34px;
+	float: left;
+	z-index: 2;
+	position: relative;
+	cursor: pointer;
+}
+#3(2).JPG{
+	margin-left: 1267px;
+	margin-top: -34px;
+	float: left;
+	z-index: 2;
+	position: relative;
+	cursor: pointer;
+}
+#4(2).jpg{
+	margin-left: 1268px;
+	margin-top: -34px;
+	float: left;
+	z-index: 2;
+	position: relative;
+	cursor: pointer;
+}    
+.qq{
+	margin-left: 561px;
+	margin-top: -355px;
+	}
+.ww{
+	margin-left: 952px;
+	margin-top: -355px;
+	}
+.ee{
+	margin-top: 36px;
+	}
+.rr{
+    margin-left: 561px;
+    margin-top: -355px;
+	}
+.tt{
+	margin-left: 951px;
+	margin-top: -355px;
+	}
+.yy{
+	margin-top: 36px;
+	}
+.uu{
+	margin-top: -355px;
+	margin-left: 561px;
+	}
+.ii{
+	margin-left: 952px;
+	margin-top: -355px;
+	}

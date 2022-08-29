@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	
+  <servlet>
+    <servlet-name>LoginController</servlet-name>
+    <servlet-class>edu.beihua.KarryCode.controller.LoginController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegController</servlet-name>
+    <servlet-class>edu.beihua.KarryCode.controller.RegController</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>LoginController</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegController</servlet-name>
+    <url-pattern>/reg</url-pattern>
+  </servlet-mapping>
+</web-app>

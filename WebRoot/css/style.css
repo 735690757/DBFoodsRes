@@ -1,0 +1,212 @@
+.text-primary {
+  color: aqua;
+}
+.bg {
+  background-color: #666666;
+  color: #F1FAFA;
+}
+.car {
+  clear: both;
+}
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background-color: #333;
+  padding: 13px 20px;
+}
+.btn:hover {
+  color: #333;
+  background-color: #fff;
+}
+.bg-list {
+  padding: 10px 0;
+}
+.l-heading {
+  font-size: 40px;
+  padding-top: 20px;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1100px;
+  overflow: hidden;
+  padding: 0 10px;
+}
+.excel{
+
+  width: 400px;
+  height: 400px;
+}
+.excel2{
+
+  width: 200px;
+  height: 50px;
+}
+.excel3{
+
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-style: oblique;
+}
+#navbar {
+  background-color: #333;
+  color: #fff;
+  overflow: auto;
+}
+#navbar a {
+  color: #fff;
+}
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+#navbar ul {
+  float: right;
+}
+#navbar ul li {
+  float: left;
+}
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+#navbar ul li a:hover,
+#navbar ul li .select {
+  background-color: #444;
+  color: ivory;
+}
+#showcase {
+  background: url(../images/winter2.jpg) no-repeat center center / cover;
+  height: 600px;
+}
+#showcase .showcase-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 100px;
+}
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+#showcase .showcase-content p {
+  font-size: 20px;
+  padding-top: 20px;
+  line-height: 1.7em;
+  padding-bottom: 20px ;
+}
+#home-info {
+  height: 400px;
+}
+#home-info .info-img {
+  float: left;
+  width: 750px;
+  height: 400px;
+
+}
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  text-align: center;
+  height: 100%;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+#home-info .info-content p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#home-info .info-content .btn {
+  background-color: #FF9999;
+  color: #FFFFFF;
+}
+#home-info .info-content .btn:hover {
+  color: #FFFFFF;
+  background-color: #FF6666;
+}
+#features .box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+#features .box i {
+  font-size: 40px;
+  color: black;
+  margin-bottom: 10px;
+}
+#features .box h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+#features .card1 {
+  background-color: #999999;
+}
+#features .card2 {
+  background-color: #cccccc;
+}
+#features .card3 {
+  background-color: #333333;
+}
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+#about-info .info-img {
+  float: right;
+  width: 50%;
+  height: 100%;
+}
+#about-info .info-img img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 20%;
+}
+.testimonials {
+  margin: 0 auto;
+  width: 50%;
+  height: 600px;
+  background: url(../img/背景.png) no-repeat center center / cover;
+}
+.testimonials h1 {
+  color: #000000;
+  padding-bottom: 20px;
+}
+.testimonials img {
+  float: left;
+  margin-right: 20px;
+  margin-top: -10px;
+}
+.testimonials .testimonial {
+  background-color: cadetblue;
+  color: #FFFF66;
+  padding: 20px;
+  margin-bottom: 40px;
+  opacity: 0.9;
+}
+#contact-form {
+  height: 700px;
+}
+#contact-form .form-group {
+  color: black;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+#contact-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px black solid;
+}
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px black solid;
+}
+#main-footer {
+  color: #2b2828;
+  text-align: center;
+  background-color: #424141;
+}
